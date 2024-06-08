@@ -1,0 +1,70 @@
+body {
+  background-color: darkred;
+}
+
+@media (max-width: 60em) {
+  legend > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+  }
+}
+@media (max-width: 20em) {
+  legend > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+}
+
+@media (max-width: 60em) {
+  #content {
+    width: 70%;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 20em) {
+  #content {
+    width: 90%;
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#contactform {
+  background-color: rgb(179, 166, 111);
+}
+#contactform input,
+#contactform textarea {
+  background-color: white;
+  flex: 2;
+}
+@media (max-width: 20em) {
+  #contactform {
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 60em) {
+  #contactform {
+    width: 70%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
